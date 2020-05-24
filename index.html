@@ -1,0 +1,12 @@
+---
+layout: home
+---
+
+{% for post in site.posts %}
+<article class="resume-item">
+  <h1 class="title"> <i class="iconfont resumebug"></i> {{post.title}}</h1>
+  <div class="content">
+    {{post.content}}
+  </div>
+</article>
+{% endfor %}

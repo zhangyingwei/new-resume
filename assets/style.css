@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(231, 227, 226);
+}
+
+.main-container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  font-family: '微软雅黑',Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  padding: 20px;
+  color: #777;
+}
+
+.main-container .update {
+  color: #777;
+  line-height: 50px;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.267);
+}
+
+.person .items {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.person .items:nth-child(1){
+  width: 800px;
+}
+
+.person .items:nth-child(1) > ul > li > span {
+  width: 70px;
+  display: inline-block;
+}
+
+.person .items:nth-child(2) img{
+  width: 120px;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 50px;
+  border-bottom: 1px solid #888;
+}
+h1 > i.iconfont {
+  font-size: 25px;
+}
+ul,ol {
+  padding-left: 20px;
+}
+ul,ol > li {
+  list-style-type: lower-greek;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+article {
+  padding: 10px 0;
+}
+
+.resume-item .content {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 40px;
+  padding-top: 20px;
+}
+
+p {
+  padding: 10px 0 10px 0;
+  font-size: 16px;
+  line-height: 32px;
+}
