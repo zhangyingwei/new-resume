@@ -34,7 +34,7 @@ body {
 }
 
 .person .items:nth-child(1){
-  width: 800px;
+  width: 700px;
 }
 
 .person .items:nth-child(1) > ul > li > span {
@@ -43,7 +43,7 @@ body {
 }
 
 .person .items:nth-child(2) img{
-  width: 120px;
+  width: 180px;
 }
 
 h1 {
